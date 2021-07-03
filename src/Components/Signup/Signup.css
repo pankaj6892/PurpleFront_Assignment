@@ -1,0 +1,97 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  min-height: 100vh;
+}
+
+.login__input{
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  font-size: 12px;
+  padding: 10px;
+  margin: 10px 10px 0px 10px;
+  min-width: 240px;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+.login__nav{
+  border-radius: 25px;
+  font-size: 18px;
+  border: 0px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.login__nav:hover{
+  background-color: black;
+  color: white;
+}
+
+.signup__nav{
+  border-radius: 25px;
+  font-size: 18px;
+  border: 0px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.signup__nav:hover{
+  background-color: black;
+  color: white;
+}
+
+.login__form{
+  border: 1px solid #ccc;
+  background-color: white;
+  width: 300px;
+  margin: 20px;
+  border-radius: 25px;
+  align-items: center;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+}
+
+.button__submit{
+  margin: 20px;
+  border-radius: 25px;
+  font-size: 15px;
+  border: 0px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.button__submit:hover {
+  background-color: lightgrey;
+  color: black;
+}
+
+.button__submit:active {
+  box-shadow: 0 0.5px #666;
+  transform: translateY(2px);
+}
+
+.signIn__text{
+  color: orange;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  text-align: left;
+  margin-left: 25px;
+}
