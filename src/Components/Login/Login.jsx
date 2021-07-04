@@ -5,6 +5,7 @@ const Login = () => {
   const [user, setUser] = useState({});
   const [unameError, setUnameError] = useState({});
   const [passError, setPassError] = useState({});
+  const url = 'https://auth-app-purple.herokuapp.com';
 
   const signUp = () => {
     let error = 0;
@@ -41,7 +42,7 @@ const Login = () => {
         redirect: 'follow',
       };
 
-      fetch('/api/auth', requestOptions)
+      fetch(url + '/api/auth', requestOptions)
         .then((response) => response.text())
         .then((result) => {
           let resultVal = JSON.parse(result);
